@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+#container,
+#logo{
+    display: flex;
+    
+}
+
+#filler_photo{
+    height: 500px;
+    width: auto;
+}
+
+#brand_name{
+    color: white;
+    font-family: "Merriweather", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 3rem
+}
+
+#logo{
+    position: relative;
+    bottom: 400px;
+
+    background: rgb(0 0 0 / 40%);
+    align-items: center;
+    justify-content: center;
+}
+
+#logo_photo{
+    height: 75px;
+    width: auto;
+
+}
+
+#credit{
+    font-size: x-small;
+    color: white;
+    position: relative;
+    bottom: 110px;
+
+}
+
+#left_side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+a{
+    color: inherit;
+}
+
+#call_to_action,
+#bottom_info{
+    height: 175px;
+    background-color: rgb(249, 250, 252);
+}
+
+#form{
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+#call_to_action{
+    padding: 75px 65px 25px 20px ;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-family: "Merriweather", serif;
+    font-size: small;
+    font-weight: 500;  
+}
+
+
