@@ -81,16 +81,39 @@ a{
 
 #call_to_action{
     height: 30vh;
-    padding: 75px 65px 25px 20px ;
+    padding: 75px 150px 25px 20px ;
     display: flex;
     flex-direction: column;
     gap: 25px;
     font-family: "Merriweather", serif;
-    font-size: small;
-    font-weight: 500;  
+    font-size: medium;
+    font-weight: bolder;  
+}
+
+.text{
+    width: 30vw;
+    flex: none;
 }
 
 #bottom_info{
-    height: 45 vh;
+    height: 45vh;
+}
+
+#form{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px 70px 30px 30px;
+}
+
+#form_elements{
+    font-family: sans-serif;
+    font-size: medium;
+    /* display: flex; */
+   
+}
+
+.form_div{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
 }
 
