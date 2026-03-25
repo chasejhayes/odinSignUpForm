@@ -74,9 +74,35 @@ a{
 }
 
 #form{
+    box-shadow: 0px 3px 5px  gray;
+    position: relative;
+   
+
+}
+
+
+
+h1{
+    padding-left: 40px;
+}
+
+label{
+    color: gray;
+
+}
+
+input{
+ border-radius: 5%;
+ border: 1px solid #E5E7EB;
+}
+
+
+
+.form_two{
     height: 25vh;
     background-color: rgb(255, 255, 255);
-
+    padding: 15px 70px 30px 30px;
+    
 }
 
 #call_to_action{
@@ -99,14 +125,11 @@ a{
     height: 45vh;
 }
 
-#form{
-    font-family: 'Courier New', Courier, monospace;
-    padding: 15px 70px 30px 30px;
-}
 
 #form_elements{
     font-family: sans-serif;
     font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
     /* display: flex; */
    
 }
@@ -117,3 +140,12 @@ a{
     padding: 10px;
 }
 
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#create{
+    color: #596D48;
+}

@@ -16,11 +16,11 @@
 
 </head>
 
-<!-- 
- make form elements
- style form - make sure to include faint drop shadow
+
+ <!-- 
+style form - make sure to include faint drop shadow
  style button
- style log in alternative-->
+ style log in alternative -->
 
 
 
@@ -45,29 +45,43 @@
             </div>
             <div id="form">
                 <h1>Let's do this!</h1>
-                <form id="form_elements" action="example.com/path" method="post">
-                    <div class="form_div">
-                        <label for="first_name">FIRST NAME</label>
-                        <input type="text" id="first_name" name="first_name">
-                        <label for="last_name">LAST NAME</label>
-                        <input type="text" id="last_name" name="last_name">
-                    </div>
-                    <div class="form_div">
-                        <label for="email">EMAIL</label>
-                        <input type="email" id="email" name="email">
-                        <label for="phone_number">PHONE NUMBER</label>
-                        <input type="number" id="phone_number" name="phone_number">
-                    </div>
-                    <div class="form_div">
-                        <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="password">
-                        <label for="confirm_password">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm_password" name="confirm_password">
-                    </div>
-                </form>
+                <div class="form_two">
+                    <form id="form_elements" action="example.com/path" method="post">
+                        <div class="form_div">
+                            <div class="col">
+                                <label for="first_name">FIRST NAME</label>
+                                <input type="text" id="first_name" name="first_name">
+                            </div>
+                            <div class="col">
+                                <label for="last_name">LAST NAME</label>
+                                <input type="text" id="last_name" name="last_name">
+                            </div>
+                        </div>
+                        <div class="form_div">
+                            <div class="col">
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email" name="email">
+                            </div>
+                            <div class="col">
+                                <label for="phone_number">PHONE NUMBER</label>
+                                <input type="number" id="phone_number" name="phone_number">
+                            </div>
+                        </div>
+                        <div class="form_div">
+                            <div class="col">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" id="password" name="password">
+                            </div>
+                            <div class="col">
+                                <label for="confirm_password">CONFIRM PASSWORD</label>
+                                <input type="password" id="confirm_password" name="confirm_password">
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
             <div id="bottom_info">
-                <button>Create Account</button>
+                <button id="create">Create Account</button>
                 <div id="log_in">
                     <p>Already have an account</p>
                     <button>Log in</button>
