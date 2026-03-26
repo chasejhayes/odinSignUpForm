@@ -74,7 +74,7 @@ a{
 }
 
 #form{
-    box-shadow: 0px 3px 5px  gray;
+    box-shadow: 0px 3px 5px  lightgrey;
     position: relative;
    
 
@@ -92,7 +92,7 @@ label{
 }
 
 input{
- border-radius: 5%;
+ border-radius: 10px;
  border: 1px solid #E5E7EB;
 }
 
@@ -130,8 +130,6 @@ input{
     font-family: sans-serif;
     font-size: medium;
     font-family: 'Courier New', Courier, monospace;
-    /* display: flex; */
-   
 }
 
 .form_div{
@@ -146,6 +144,36 @@ input{
 }
 
 
-#create{
-    color: #596D48;
+#bottom_info{
+    padding: 25px 35px;
 }
+
+button{
+    background-color: #596D48;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+#log_in{
+    padding-top: 15px;
+    display: flex;
+    gap: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+
+#log_in_link{
+    color: #596D48
+}
+
+input:focus{
+    border-color: blue;
+      box-shadow: 1px 2px 5px lightgray;
+}
+
+input:invalid{
+    border-color: red;
+}
+
+
